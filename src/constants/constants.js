@@ -10,7 +10,7 @@ export const projects = [
     id: 0,
   },
   {
-    title: 'Crwn-Clothing',
+    title: 'Crwn-Clothing - E-Commerce',
     description:
       "While building it I've learn many advanced React topics such as routing, Redux for state management, fetching data with Axios, as well as how to use Stripe for card transactions. On top of that, I've learn how to use Firebase's authentication and real time database, how to use Local Storage to save a current state and How to build a full functional server built with Node.js with API requests for data from the database using RESFull routes and CRUD Pattern.",
     image: '/images/Crwn.png',
@@ -22,7 +22,7 @@ export const projects = [
   {
     title: 'Disney Plus Clone',
     description:
-      "This is a Disney Plus website clone, I've used React, React Router, React Context API and Styled Components for the Front-End. And used Firebase database and authentication for the Back-End. It's build with 3 pages: Welcome page, Home page and a Movie/Series page all the data is fetched from the firebase database.",
+      "This is a Disney Plus website clone, I've use React, React Router, React Context API and Styled Components for the Front-End. And used Firebase's realtime database and authentication for the Back-End. It's built with 3 pages: Welcome page, Home page and a Movie/Series page all the data is fetched from the firebase database.",
     image: '/images/DisneyPlus.png',
     tags: ['React', 'Styled-Components', 'Firebase'],
     source: 'https://github.com/NesyElimelech/disney_plus_clone',
@@ -32,7 +32,7 @@ export const projects = [
   {
     title: 'Infinite Scrolling - UnSplash API',
     description:
-      "This is a pure vanilla JavaScript project that I've build with the UnSplash API for fetching a specific amount of photos and every time the user is scrolling down for infinite loop. In this project I've learned how to use ASync/Await functionality to make requests for the data from the UnSplash API and represent it.",
+      "This is a pure vanilla JavaScript project that I've build with the UnSplash API for fetching a specific amount of photos and every time the user is scrolling down it's keep fetching for infinite loop which give the web app an infinite scrolling effect. In this project I've learn how to use ASync/Await functionality to make requests for the data from the UnSplash API and represent it.",
     image: '/images/InfiniteScroll.png',
     tags: ['JavaScript', 'UnSplash API'],
     source: 'https://github.com/NesyElimelech/Unsplash-API-Infinite-Scrolling',
@@ -42,7 +42,7 @@ export const projects = [
   {
     title: 'React Music Player',
     description:
-      "This is a React Music Player Web-App, In this project I've learned how to use Styled-Components in React projects for the first time. I've also built all the functionality and logic of a music player. This project is a part of a React course that I've took by DevEd.",
+      "This is a React Music Player Web-App, In this project I've learned how to use Styled-Components in React projects for the first time. I've also built all the functionality and logic of a music player. This project is a part of a React course that I took by DevEd.",
     image: '/images/ReactMusicPlayer.png',
     tags: ['React', 'Styled-Components'],
     source: 'https://google.com',
@@ -52,7 +52,7 @@ export const projects = [
   {
     title: 'Capture Portfolio',
     description:
-      "This is another React project witch was a part of DevEd React course, This time I've built a portfolio website for a photographer, All the animations in this website are made with Framer-Motion.",
+      "This is another React project which was a part of DevEd React course, This time I've build a portfolio website for a photographer, All the animations in this website are made with Framer-Motion.",
     image: '/images/Capture.png',
     tags: ['React', 'Framer-Motion', 'Styled-Components'],
     source: 'https://github.com/NesyElimelech/Capture-Portfolio',
@@ -62,7 +62,7 @@ export const projects = [
   {
     title: 'Countdown',
     description:
-      "Nice little JavaScript Project that's count down to something that the user is entering. It's do all the math to calculate the time remain till the countdown is stop. All of this project is built With JavaScript and HTML.",
+      'Nice little JavaScript Project that counts down to something the user entered. It does all the remaining time calculations until the countdown is complete. This project was purely built with JavaScript and HTML.',
     image: '/images/Countdown.png',
     tags: ['Javascript', 'HTML', 'CSS'],
     source: 'https://github.com/NesyElimelech/Final-Countdown',
