@@ -1,5 +1,10 @@
 import React from 'react';
-import { AiFillGithub, AiFillInstagram, AiFillLinkedin } from 'react-icons/ai';
+import {
+  AiFillGithub,
+  AiFillInstagram,
+  AiFillLinkedin,
+  AiOutlineWhatsApp,
+} from 'react-icons/ai';
 
 import { SectionTitle } from '../../styles/GlobalComponents/index.js';
 import { SocialIcons } from '../Header/HeaderStyles';
@@ -22,12 +27,21 @@ const Footer = () => {
       <LinkList>
         <LinkColumn>
           <LinkTitle>Call</LinkTitle>
-          <LinkItem href="tel:+972-52-335-9995">+972-52-335-9995</LinkItem>
+          <LinkItem href='tel:+972-52-335-9995'>+972-52-335-9995</LinkItem>
         </LinkColumn>
         <LinkColumn>
           <LinkTitle>E-Mail</LinkTitle>
-          <LinkItem href="mailto:nesy15@gmail.com" target="_blank">
+          <LinkItem href='mailto:nesy15@gmail.com' target='_blank'>
             nesy15@gmail.com
+          </LinkItem>
+        </LinkColumn>
+        <LinkColumn>
+          <LinkTitle>WhatsApp</LinkTitle>
+          <LinkItem
+            href='https://api.whatsapp.com/send?phone=972523359995&text=Hello%20Nesy%20'
+            target='_blank'
+          >
+            +972-52-335-9995
           </LinkItem>
         </LinkColumn>
       </LinkList>
@@ -40,20 +54,26 @@ const Footer = () => {
           </Slogan>
         </CompanyContainer>
         <SocialContainer>
-          <SocialIcons href="https://github.com/NesyElimelech" target="_blank">
-            <AiFillGithub size="3rem" />
+          <SocialIcons href='https://github.com/NesyElimelech' target='_blank'>
+            <AiFillGithub size='3rem' />
           </SocialIcons>
           <SocialIcons
-            href="https://linkedin.com/in/nesy-elimelech"
-            target="_blank"
+            href='https://linkedin.com/in/nesy-elimelech'
+            target='_blank'
           >
-            <AiFillLinkedin size="3rem" />
+            <AiFillLinkedin size='3rem' />
           </SocialIcons>
           <SocialIcons
-            href="https://www.instagram.com/nesye30/"
-            target="_blank"
+            href='https://api.whatsapp.com/send?phone=972523359995&text=Hello%20Nesy%20'
+            target='_blank'
           >
-            <AiFillInstagram size="3rem" />
+            <AiOutlineWhatsApp size='3rem' />
+          </SocialIcons>
+          <SocialIcons
+            href='https://www.instagram.com/nesye30/'
+            target='_blank'
+          >
+            <AiFillInstagram size='3rem' />
           </SocialIcons>
         </SocialContainer>
       </SocialIconsContainer>

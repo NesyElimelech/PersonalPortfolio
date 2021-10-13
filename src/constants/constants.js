@@ -9,7 +9,7 @@ export const projects = [
     source: 'https://github.com/NesyElimelech/Natours-scss-advanced',
     id: 0,
   },
-  {
+  /* {
     title: 'Crwn-Clothing - E-Commerce',
     description:
       "While building it I've learn many advanced React topics such as routing, Redux for state management, fetching data with Axios, as well as how to use Stripe for card transactions. On top of that, I've learn how to use Firebase's authentication and real time database, how to use Local Storage to save a current state and How to build a full functional server built with Node.js with API requests for data from the database using RESFull routes and CRUD Pattern.",
@@ -18,7 +18,7 @@ export const projects = [
     source: 'https://github.com/NesyElimelech/crwn-clothing',
     visit: 'https://crwn-clothing-three.vercel.app/',
     id: 1,
-  },
+  }, */
   {
     title: 'Disney Plus Clone',
     description:
@@ -78,6 +78,16 @@ export const projects = [
     source: 'https://github.com/NesyElimelech/Final-Countdown',
     visit: 'https://yelpcampnesy.herokuapp.com/',
     id: 7,
+  },
+  {
+    title: 'Beats Landing page example',
+    description:
+      "This is a sample of a responsive landing page for an headphone company. some of it's features and a links to shop the headphones. The page has scroll animations with 3ed party library 'scrollreveal.js'",
+    image: '/images/headphone.png',
+    tags: ['HTML', 'CSS', 'JavaScript'],
+    source: 'https://github.com/NesyElimelech/headphone-landing-page',
+    visit: 'https://headphone-landing-page.vercel.app/',
+    id: 8,
   },
 ];
 
