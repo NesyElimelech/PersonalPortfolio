@@ -25,8 +25,7 @@ const Hero = () => (
         Welcome to My Personal Portfolio
       </SectionTitle>
       <SectionText>
-        A Fullstack web developer | Specialized in MERN stack | A Graphic
-        designer | Sports, Cooking and Dogs Lover.
+        A web developer, Specialized in MERN stack and a graphic designs.
       </SectionText>
       <Button
         onClick={() =>

@@ -1,6 +1,6 @@
 import React from 'react';
 import { DiFirebase, DiReact } from 'react-icons/di';
-import { SiAdobephotoshop } from 'react-icons/si';
+import { SiAdobephotoshop, SiFigma } from 'react-icons/si';
 import {
   Section,
   SectionDivider,
@@ -16,7 +16,7 @@ import {
 } from './TechnologiesStyles';
 
 const Technologies = () => (
-  <Section id="tech">
+  <Section id='tech'>
     <SectionDivider />
     <br />
     <br />
@@ -27,7 +27,7 @@ const Technologies = () => (
     </SectionText>
     <List>
       <ListItem>
-        <DiReact size="3rem" />
+        <DiReact size='3rem' />
         <ListContainer>
           <ListTitle>Front-End</ListTitle>
           <ListParagraph>
@@ -37,7 +37,7 @@ const Technologies = () => (
         </ListContainer>
       </ListItem>
       <ListItem>
-        <DiFirebase size="3rem" />
+        <DiFirebase size='3rem' />
         <ListContainer>
           <ListTitle>Back-End</ListTitle>
           <ListParagraph>
@@ -47,12 +47,21 @@ const Technologies = () => (
         </ListContainer>
       </ListItem>
       <ListItem>
-        <SiAdobephotoshop size="2rem" />
+        <SiFigma size='2rem' />
         <ListContainer>
           <ListTitle>UI/UX</ListTitle>
           <ListParagraph>
             Experience with <br />
-            Tools like Photoshop and Figma
+            Tools like XD and Figma
+          </ListParagraph>
+        </ListContainer>
+      </ListItem>
+      <ListItem>
+        <SiAdobephotoshop size='2rem' />
+        <ListContainer>
+          <ListTitle>Graphics</ListTitle>
+          <ListParagraph>
+            Adobe Photoshop, Premier and a little bit of After Effects.
           </ListParagraph>
         </ListContainer>
       </ListItem>

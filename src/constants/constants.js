@@ -1,15 +1,5 @@
 export const projects = [
   {
-    title: 'Natours',
-    description:
-      "My first All SCSS, HTML project. In this project I've learn how to use SCSS, how to make CSS animations, how to mimic JS functionality with only SCSS and HTML. This website is a landing page for a touring company with pricing card and testimonials from other users.",
-    image: '/images/Natuors.png',
-    tags: ['HTML', 'SCSS'],
-    visit: 'https://natour-lyart.vercel.app/',
-    source: 'https://github.com/NesyElimelech/Natours-scss-advanced',
-    id: 0,
-  },
-  {
     title: 'Crwn-Clothing - E-Commerce',
     description:
       "While building it I've learn many advanced React topics such as routing, Redux for state management, fetching data with Axios, as well as how to use Stripe for card transactions. On top of that, I've learn how to use Firebase's authentication and real time database, how to use Local Storage to save a current state and How to build a full functional server built with Node.js with API requests for data from the database using RESFull routes and CRUD Pattern.",
@@ -17,6 +7,16 @@ export const projects = [
     tags: ['React', 'Node.js', 'Express', 'Firebase', 'Stripe API'],
     source: 'https://github.com/NesyElimelech/crwn-clothing',
     visit: 'https://crwn-clothing-three.vercel.app/',
+    id: 0,
+  },
+  {
+    title: 'Natours',
+    description:
+      "My first All SCSS, HTML project. In this project I've learn how to use SCSS, how to make CSS animations, how to mimic JS functionality with only SCSS and HTML. This website is a landing page for a touring company with pricing card and testimonials from other users.",
+    image: '/images/Natuors.png',
+    tags: ['HTML', 'SCSS'],
+    visit: 'https://natour-lyart.vercel.app/',
+    source: 'https://github.com/NesyElimelech/Natours-scss-advanced',
     id: 1,
   },
   {
