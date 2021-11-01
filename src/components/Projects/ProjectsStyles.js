@@ -10,10 +10,10 @@ export const GridContainer = styled.section`
   width: 100%;
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(400px, 1fr));
+
   padding: 3rem;
   place-items: center;
-  column-gap: 2rem;
-  row-gap: 3rem;
+  gap: 6rem;
   @media ${(props) => props.theme.breakpoints.sm} {
     display: flex;
     flex-direction: column;
@@ -25,7 +25,7 @@ export const BlogCard = styled.div`
   border-radius: 10px;
   box-shadow: 5px 3px 20px rgba(180, 178, 178, 0.8);
   text-align: center;
-  width: 80%;
+  width: 100%;
   background-color: transparent;
   overflow: hidden;
   @media ${(props) => props.theme.breakpoints.sm} {
