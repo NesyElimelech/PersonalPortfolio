@@ -2,7 +2,7 @@ export const projects = [
   {
     title: 'Crwn-Clothing - E-Commerce',
     description:
-      "While building it I've learn many advanced React topics such as routing, Redux for state management, fetching data with Axios, as well as how to use Stripe for card transactions. On top of that, I've learn how to use Firebase's authentication and real time database, how to use Local Storage to save a current state and How to build a full functional server built with Node.js with API requests for data fetching from the database using RESFull routes and CRUD Pattern.",
+      "While building it I've learn many advanced React topics such as routing, Redux for state management, fetching data with Axios, as well as how to use Stripe for card transactions. On top of that, I've learned how to use Firebase's authentication and real time database, how to use Local Storage to save a current state and how to build a full functional server built with Node.js with API requests for data fetching from the database using RESFull routes and CRUD Pattern.",
     image: '/images/Crwn.png',
     tags: ['React', 'Node.js', 'Express', 'Firebase', 'Stripe API'],
     source: 'https://github.com/NesyElimelech/crwn-clothing',
@@ -12,7 +12,7 @@ export const projects = [
   {
     title: 'Natours',
     description:
-      "This website is a landing page for a touring company with pricing card and testimonials from other users. This is my first All SCSS, HTML project. In this project I've learn how to use SCSS, how to make CSS animations, how to mimic JS functionality with only SCSS and HTML. I've also learn how to use BEM pattern in Scss",
+      "This website is a landing page for a touring company with pricing card and testimonials from other users. This is my first All SCSS, HTML project. In this project I've learn how to use SCSS, how to make CSS animations, how to mimic JS functionality with only SCSS and HTML. I've also learned how to use BEM naming convention.",
     image: '/images/Natuors.png',
     tags: ['HTML', 'SCSS'],
     visit: 'https://natour-lyart.vercel.app/',
@@ -22,7 +22,7 @@ export const projects = [
   {
     title: 'Yelp-Camp',
     description:
-      "This is my first real big project that I've build as part of a web development bootcamp course that I've took to learn the fundamentals of the web development. This project is built with HTML, JavaScript, CSS and Bootstrap, This is a Yelp clone website for camping. It's use firebase for authentication, MongoDB for database and Bootstrap for styling. The point of the app is to give you an idea about a camping ground, It has a Users comments and reviews an option to add campground and an admin user that controls everything.",
+      "This is my first fullstack project that I've build as part of a web development bootcamp course that I've took to learn the fundamentals of the web development. This project is built with HTML, JavaScript, CSS and Bootstrap, This is a Yelp clone website for camping. It's use firebase for authentication, MongoDB for database and Bootstrap for styling. The point of the app is to give you an idea about a camping ground, It has a Users comments and reviews an option to add campground and an admin user that controls everything.",
     image: '/images/YelpCamp.png',
     tags: ['Bootstrap', 'HTML', 'CSS', 'MongoDB', 'JavaScript'],
     source: 'https://github.com/NesyElimelech/Final-Countdown',
@@ -98,5 +98,4 @@ export const TimeLineData = [
   { year: 2019, text: 'Got a promotion to a Store manager at Tzamtzam' },
   { year: 2020, text: 'Finished my B.Sc' },
   { year: 2020, text: 'Took online courses to learn Web Development' },
-  { year: 2021, text: 'Find my first job as Web Developer(?)' },
 ];
